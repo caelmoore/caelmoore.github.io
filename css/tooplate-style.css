@@ -9,7 +9,7 @@ http://www.tooplate.com/view/2109-the-card
 }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
   font-size: 19px;
   color: #ffffff;
   overflow-x: hidden;
@@ -83,18 +83,27 @@ footer a:link, footer a:visited {
 }
 
 .tm-bg-dark {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .tm-site-header-box {
   display: inline-block;
-  padding: 40px 80px 40px 40px;
-  margin: 40px 40px 100px;
+  padding: 8px ;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.tm-site-intro-box {
+  display: inline-block;
+  padding: 12px 10px 12px 12px;
+  margin: 40px 40px 1000px;
 }
 
 .tm-site-title {
-  font-size: 3.6rem;
-  text-transform: uppercase;
+  font-size: 2rem;
+  #text-transform: uppercase;
 }
 
 .tm-site-subtitle {
@@ -117,14 +126,14 @@ footer a:link, footer a:visited {
 
 .tm-section-title {
   font-size: 3.4rem;
-  margin-left: 40px;
-  text-transform: uppercase;
+  margin-left: 0px;
+  #text-transform: uppercase;
 }
 
 .tm-textbox {
-  padding: 45px;
-  font-size: 1.1rem;
-  color: #c5c7c6;
+  padding: 25px;
+  font-size: 1.2rem;
+  #color: #c5c7c6;
   line-height: 1.8;
 }
 
@@ -148,7 +157,7 @@ footer a:link, footer a:visited {
   color: black;
   border-radius: 5px;
   display: inline-block;
-  margin-left: 40px;
+  #margin-left: 40px;
   margin-top: 25px;
 }
 
